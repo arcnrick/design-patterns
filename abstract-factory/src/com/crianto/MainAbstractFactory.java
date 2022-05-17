@@ -29,8 +29,8 @@ public class MainAbstractFactory {
 */
 
         /*
-         * Da forma que foi feito acima, além de criar uma série de acoplamentos, também tenho de instânciar os objetos
-         * especificando-os como objetos de Produto, NFE, Boleto e Venda, passando seus parâmetros para a criação dos
+         * Da forma que foi feito acima, além de criar uma série de acoplamentos, também tenho de instanciar os objetos
+         * já especificando-os como objetos de Produto, NFE, Boleto e Venda, passando seus parâmetros para a criação dos
          * cálculos, regras etc.
          * Da forma abaixo, eu me preocupo em criar o objeto de produto e em seguida criar uma LojaCentroDaInformatica
          * que por dentro, implementa uma factory genérica... essa factory genérica por sua vez, faz uso de outras duas
