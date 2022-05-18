@@ -1,7 +1,7 @@
 package com.crianto;
 
 import com.crianto.domainsempadrao.Mensagem;
-import com.crianto.domainsempadrao.factory.MensagemFactory;
+import com.crianto.factory.MensagemFactory;
 
 import javax.swing.*;
 
